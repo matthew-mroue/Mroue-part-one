@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+html {
+    font-family: fira sans;
+    background-color: #f0ecee;
+    height: 100%;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+p {
+    text-align: left;
+    color: #88898b;
+}
+.red {
+    color: #ff4850;
+}
+img {
+    display: none;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.menuBar {
+    color: #88898b;
+    text-align: left;
+    margin: -47px;
+    padding: 10px;
+}
+
+.findOut:hover {
+    background-color: #ccc;
+    color: white;
+  }
+  
+.findOut {
+    background-color: #ff4850;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 0 20 20 0;
+}
+.findOut a {
+   color: #fff;
+}
+a {
+    color: #88898b;
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #ccc;
+    color: #ff4850;
+    text-align: left;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 100 100 0;
+  }
+a.active {
+    background-color: #ff4850;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+a.active:hover {
+    background-color: #ccc;
+    color: #ff4850;
+}
+.info {
+    text-align: left;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+
+    body {
+      background-color: inherit;
+      background-image: url(bulldog.jpg);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 12 3px 9 6px;
+        padding: 0;
+        float: right;
+    }
+    li {
+        padding: 10px;
+        display: inline-block;
+    }
+    h1 {
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+    }
+      
+    h2 {
+        padding: 40px 0 0px 0;
+        margin: 0 0 0 0;
+    }
+    p {
+        font-size: 20px;
+        margin: 0 0 0px 0px;
+        color: #88898b;
+    }
+    .container {
+        width: 45%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .findOut {
+        padding: 10px;
+        margin-top: 10px;
+        width: 25%;
+        text-align: center;
+    }
+    .menuBar {
+        color: #88898b;
+        text-align: left;
+        margin: auto;
+    }
